@@ -1,0 +1,631 @@
+﻿[2016.06.14-04.22.14:813][  0]Log file open, 06/13/16 23:22:14
+[2016.06.14-04.22.14:813][  0]LogInit:Display: Running engine for game: Shooter
+[2016.06.14-04.22.14:813][  0]LogPlatformFile: Not using cached read wrapper
+[2016.06.14-04.22.14:813][  0]LogInit:Display: RandInit(1564327404) SRandInit(1564327407).
+[2016.06.14-04.22.14:813][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.06.14-04.22.14:813][  0]LogStats: Stats thread started at 0.217130
+[2016.06.14-04.22.14:813][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.06.14-04.22.14:813][  0]LogInit: API Version: 2758231
+[2016.06.14-04.22.14:813][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.06.14-04.22.14:813][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.06.14-04.22.14:813][  0]LogInit: Build Configuration: Development
+[2016.06.14-04.22.14:813][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.06.14-04.22.14:813][  0]LogInit: Command line: -EpicPortal 
+[2016.06.14-04.22.14:813][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.06.14-04.22.14:813][  0]LogInit: Rocket: 1
+[2016.06.14-04.22.14:832][  0]LogInit: Using libcurl 7.41.0
+[2016.06.14-04.22.14:832][  0]LogInit:  - built for x86_64-pc-win32
+[2016.06.14-04.22.14:832][  0]LogInit:  - supports SSL with WinSSL
+[2016.06.14-04.22.14:832][  0]LogInit:  - other features:
+[2016.06.14-04.22.14:832][  0]LogInit:      CURL_VERSION_SSL
+[2016.06.14-04.22.14:832][  0]LogInit:      CURL_VERSION_IPV6
+[2016.06.14-04.22.14:832][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.06.14-04.22.14:832][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.06.14-04.22.14:832][  0]LogInit:      CURL_VERSION_IDN
+[2016.06.14-04.22.14:832][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.06.14-04.22.14:832][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.06.14-04.22.14:832][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.06.14-04.22.14:832][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.06.14-04.22.14:832][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.06.14-04.22.14:855][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.06.14-04.22.14:877][  0]LogInit: Object subsystem initialized
+[2016.06.14-04.22.14:886][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.14-04.22.14:886][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.06.14-04.22.14:928][  0]LogInit: Computer: PEDRO-POUCEL
+[2016.06.14-04.22.14:928][  0]LogInit: User: Pedro
+[2016.06.14-04.22.14:928][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.06.14-04.22.14:928][  0]LogInit: High frequency timer resolution =1.754519 MHz
+[2016.06.14-04.22.14:929][  0]LogMemory: Memory total: Physical=11.2GB (12GB approx)
+[2016.06.14-04.22.14:929][  0]LogMemory: Platform Memory Stats for Windows
+[2016.06.14-04.22.14:929][  0]LogMemory: Process Physical Memory: 54.20 MB used, 54.20 MB peak
+[2016.06.14-04.22.14:929][  0]LogMemory: Process Virtual Memory: 55.57 MB used, 55.57 MB peak
+[2016.06.14-04.22.14:929][  0]LogMemory: Physical Memory: 4744.43 MB used, 11483.68 MB total
+[2016.06.14-04.22.14:929][  0]LogMemory: Virtual Memory: 361.18 MB used, 134217728.00 MB total
+[2016.06.14-04.22.15:110][  0]LogTextLocalizationManager: No specific translations for ('es-MX') exist, so ('es') translations will be used.
+[2016.06.14-04.22.15:894][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon(TM) R6 Graphics (Feature Level 11_0)
+[2016.06.14-04.22.15:894][  0]LogD3D11RHI: Adapter has 2528MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2016.06.14-04.22.15:900][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.06.14-04.22.15:900][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.06.14-04.22.15:901][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.06.14-04.22.15:922][  0]LogD3D11RHI: !Direct3DDevice
+[2016.06.14-04.22.15:922][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.06.14-04.22.15:955][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.06.14-04.22.15:976][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Intermediate/Shaders/WorkingDirectory/6676/).
+[2016.06.14-04.22.15:977][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pedro/AppData/Local/Temp/UnrealShaderWorkingDir/C4BEAE5C457C4E05BEF46999826E73C5/'.
+[2016.06.14-04.22.15:977][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.06.14-04.22.19:777][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.06.14-04.22.19:793][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.06.14-04.22.19:811][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.06.14-04.22.19:828][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.06.14-04.22.19:843][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.06.14-04.22.19:862][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.06.14-04.22.19:875][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.06.14-04.22.19:891][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.06.14-04.22.19:902][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.06.14-04.22.19:919][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.06.14-04.22.19:932][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.06.14-04.22.19:962][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.06.14-04.22.19:962][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.06.14-04.22.19:967][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.06.14-04.22.20:009][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.06.14-04.22.20:024][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.06.14-04.22.20:035][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.06.14-04.22.20:054][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.06.14-04.22.20:054][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.06.14-04.22.20:308][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.06.14-04.22.20:451][  0]LogDerivedDataCache: Loaded boot cache 0.14s 41MB C:/Users/Pedro/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.06.14-04.22.20:451][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Pedro/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.06.14-04.22.20:451][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.06.14-04.22.20:451][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.06.14-04.22.20:451][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.06.14-04.22.20:451][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.06.14-04.22.20:557][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.06.14-04.22.20:572][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pedro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.06.14-04.22.21:162][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.14-04.22.21:169][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.06.14-04.22.21:423][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.06.14-04.22.21:423][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.06.14-04.22.22:074][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.14-04.22.26:736][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.06.14-04.22.26:924][  0]LogAssetRegistry: FAssetRegistry took 0.0119 seconds to start up
+[2016.06.14-04.22.27:418][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.06.14-04.22.27:445][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.06.14-04.22.27:479][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.06.14-04.22.27:511][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.06.14-04.22.28:149][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.06.14-04.22.28:149][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.06.14-04.22.28:280][  0]LogEngine: Initializing Engine...
+[2016.06.14-04.22.28:297][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.06.14-04.22.28:300][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.06.14-04.22.28:621][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.06.14-04.22.28:633][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.14-04.22.28:658][  0]LogInit: FAudioDevice initialized.
+[2016.06.14-04.22.28:728][  0]LogDerivedDataCache: Saved boot cache 0.07s 41MB C:/Users/Pedro/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.06.14-04.22.28:744][  0]LogInit: Texture streaming: Enabled
+[2016.06.14-04.22.28:758][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.06.14-04.22.28:759][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.06.14-04.22.28:759][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6883fa734cbcedc1e92cfcb78f4dd8c3|4cf6c898ea414eb5be0ad12b86ae91ce|815a79b3-8e5f-4063-82af-f4a1df22fb33
+[2016.06.14-04.22.28:759][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.06.14-04.22.28:786][  0]LogInit: Transaction tracking system initialized
+[2016.06.14-04.22.28:852][  0]BlueprintLog: New page: Cargar el editor
+[2016.06.14-04.22.29:736][  0]LocalizationService: Información Localization service is disabled
+[2016.06.14-04.22.30:322][  0]LogConsoleResponse:Display: 
+[2016.06.14-04.22.30:666][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pedro/Documents/GitHub/Game/Shooter/Content/' took 0.01s
+[2016.06.14-04.22.30:666][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.06.14-04.22.30:845][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.06.14-04.22.30:847][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files (x86)/Epic Games/4.10/FeaturePacks/StarterContent.upack)
+[2016.06.14-04.22.30:857][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.06.14-04.22.30:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.06.14-04.22.30:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.06.14-04.22.30:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.06.14-04.22.30:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.06.14-04.22.30:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.06.14-04.22.30:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.06.14-04.22.30:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.06.14-04.22.30:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.06.14-04.22.30:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.06.14-04.22.30:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.06.14-04.22.30:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.06.14-04.22.30:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.06.14-04.22.30:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.06.14-04.22.30:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.06.14-04.22.30:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.06.14-04.22.30:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.06.14-04.22.30:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.06.14-04.22.30:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Fire01.uasset"
+[2016.06.14-04.22.30:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.06.14-04.22.30:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.06.14-04.22.30:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.06.14-04.22.30:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Light01.uasset"
+[2016.06.14-04.22.30:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.06.14-04.22.30:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Light02.uasset"
+[2016.06.14-04.22.30:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.06.14-04.22.30:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.06.14-04.22.30:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.06.14-04.22.30:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.06.14-04.22.31:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.06.14-04.22.31:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.06.14-04.22.31:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.06.14-04.22.31:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.06.14-04.22.31:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.06.14-04.22.31:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Steam01.uasset"
+[2016.06.14-04.22.31:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.06.14-04.22.31:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.06.14-04.22.31:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.06.14-04.22.31:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.06.14-04.22.31:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.06.14-04.22.31:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.06.14-04.22.31:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.06.14-04.22.31:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.06.14-04.22.31:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.06.14-04.22.31:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.06.14-04.22.31:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.06.14-04.22.31:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.06.14-04.22.31:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.06.14-04.22.31:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.06.14-04.22.31:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.06.14-04.22.31:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.06.14-04.22.31:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.06.14-04.22.31:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.06.14-04.22.31:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.06.14-04.22.31:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.06.14-04.22.31:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Maps/StarterMap.umap"
+[2016.06.14-04.22.31:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.06.14-04.22.31:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.06.14-04.22.31:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.06.14-04.22.31:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.06.14-04.22.31:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.06.14-04.22.31:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.06.14-04.22.31:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.06.14-04.22.31:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.06.14-04.22.31:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.06.14-04.22.31:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.06.14-04.22.31:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.06.14-04.22.31:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.06.14-04.22.31:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.06.14-04.22.31:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.06.14-04.22.31:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.06.14-04.22.31:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.06.14-04.22.31:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.06.14-04.22.31:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.06.14-04.22.31:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.06.14-04.22.31:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.06.14-04.22.31:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.06.14-04.22.31:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.06.14-04.22.31:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.06.14-04.22.31:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.06.14-04.22.31:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.06.14-04.22.31:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.06.14-04.22.31:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.06.14-04.22.31:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.06.14-04.22.31:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.06.14-04.22.31:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.06.14-04.22.31:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.06.14-04.22.31:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.06.14-04.22.31:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.06.14-04.22.31:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.06.14-04.22.31:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.06.14-04.22.31:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.06.14-04.22.31:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.06.14-04.22.31:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.06.14-04.22.31:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.06.14-04.22.31:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.06.14-04.22.31:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.06.14-04.22.31:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.06.14-04.22.31:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.06.14-04.22.32:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.06.14-04.22.32:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.06.14-04.22.32:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.06.14-04.22.32:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.06.14-04.22.32:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.06.14-04.22.32:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.06.14-04.22.32:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.06.14-04.22.32:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.06.14-04.22.32:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.06.14-04.22.32:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.06.14-04.22.32:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.06.14-04.22.32:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.06.14-04.22.32:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.06.14-04.22.32:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.06.14-04.22.32:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.06.14-04.22.32:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.06.14-04.22.32:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.06.14-04.22.32:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.06.14-04.22.32:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.06.14-04.22.32:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.06.14-04.22.32:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.06.14-04.22.32:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_Door.uasset"
+[2016.06.14-04.22.32:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.06.14-04.22.32:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.06.14-04.22.32:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.06.14-04.22.32:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.06.14-04.22.32:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.06.14-04.22.32:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.06.14-04.22.32:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.06.14-04.22.32:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.06.14-04.22.32:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.06.14-04.22.32:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.06.14-04.22.32:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.06.14-04.22.32:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.06.14-04.22.32:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.06.14-04.22.32:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.06.14-04.22.32:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.06.14-04.22.32:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.06.14-04.22.32:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.06.14-04.22.32:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.06.14-04.22.32:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.06.14-04.22.32:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.06.14-04.22.32:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.06.14-04.22.32:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.06.14-04.22.32:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.06.14-04.22.32:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.06.14-04.22.32:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.06.14-04.22.32:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.06.14-04.22.32:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.06.14-04.22.32:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.06.14-04.22.32:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.06.14-04.22.32:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.06.14-04.22.32:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.06.14-04.22.32:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.06.14-04.22.32:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.06.14-04.22.32:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.06.14-04.22.32:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.06.14-04.22.32:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.06.14-04.22.32:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.06.14-04.22.32:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.06.14-04.22.32:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.06.14-04.22.32:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.06.14-04.22.32:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.06.14-04.22.32:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.06.14-04.22.32:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.06.14-04.22.32:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.06.14-04.22.32:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.06.14-04.22.32:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.06.14-04.22.32:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.06.14-04.22.32:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.06.14-04.22.32:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.06.14-04.22.32:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.06.14-04.22.32:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.06.14-04.22.32:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.06.14-04.22.32:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.06.14-04.22.32:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.06.14-04.22.32:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.06.14-04.22.32:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.06.14-04.22.33:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.06.14-04.22.33:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.06.14-04.22.33:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.06.14-04.22.33:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.06.14-04.22.33:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.06.14-04.22.33:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.06.14-04.22.33:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.06.14-04.22.33:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.06.14-04.22.33:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.06.14-04.22.33:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.06.14-04.22.33:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.06.14-04.22.33:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.06.14-04.22.33:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.06.14-04.22.33:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.06.14-04.22.33:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.06.14-04.22.33:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.06.14-04.22.33:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.06.14-04.22.33:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.06.14-04.22.33:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.06.14-04.22.33:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.06.14-04.22.33:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.06.14-04.22.33:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.06.14-04.22.33:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.06.14-04.22.33:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.06.14-04.22.33:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.06.14-04.22.33:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.06.14-04.22.33:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.06.14-04.22.33:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.06.14-04.22.33:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.06.14-04.22.33:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.06.14-04.22.33:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.06.14-04.22.33:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.06.14-04.22.33:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.06.14-04.22.33:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.06.14-04.22.33:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.06.14-04.22.33:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.06.14-04.22.33:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.06.14-04.22.33:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.06.14-04.22.33:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.06.14-04.22.33:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.06.14-04.22.34:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.06.14-04.22.34:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.06.14-04.22.34:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.06.14-04.22.34:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.06.14-04.22.34:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.06.14-04.22.34:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.06.14-04.22.34:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.06.14-04.22.34:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.06.14-04.22.34:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.06.14-04.22.34:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.06.14-04.22.34:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.06.14-04.22.34:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.06.14-04.22.34:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.06.14-04.22.34:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.06.14-04.22.34:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.06.14-04.22.34:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.06.14-04.22.34:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.06.14-04.22.34:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.06.14-04.22.34:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.06.14-04.22.35:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.06.14-04.22.35:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.06.14-04.22.35:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.06.14-04.22.35:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.06.14-04.22.35:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.06.14-04.22.35:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.06.14-04.22.35:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.06.14-04.22.35:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.06.14-04.22.35:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.06.14-04.22.35:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.06.14-04.22.35:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.06.14-04.22.35:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.06.14-04.22.35:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.06.14-04.22.35:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.06.14-04.22.35:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.06.14-04.22.35:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.06.14-04.22.35:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.06.14-04.22.35:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.06.14-04.22.35:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.06.14-04.22.35:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.06.14-04.22.35:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.06.14-04.22.35:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.06.14-04.22.35:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.06.14-04.22.35:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.06.14-04.22.36:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.06.14-04.22.36:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.06.14-04.22.36:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.06.14-04.22.36:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.06.14-04.22.36:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.06.14-04.22.36:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.06.14-04.22.36:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.06.14-04.22.36:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.06.14-04.22.36:654][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.06.14-04.22.37:112][  0]LogSavePackage: Save=33.984814ms
+[2016.06.14-04.22.37:112][  0]LogSavePackage: Moving '../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Saved/Floor_400x400D1C228404C103EDEBC81468178A3D7E1.tmp' to '../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.06.14-04.22.37:127][  0]LogSavePackage: Total save time: 66.232968ms
+[2016.06.14-04.22.37:127][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.06.14-04.22.37:127][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.06.14-04.22.37:132][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Pedro/Documents/GitHub/Game/Shooter/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.14-04.22.37:134][  0]LightingResults: New page: Diseñar la iluminación
+[2016.06.14-04.22.37:140][  0]MapCheck: New page: Revisión del mapa
+[2016.06.14-04.22.37:140][  0]LightingResults: New page: Diseñar la iluminación
+[2016.06.14-04.22.37:189][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000043C6F536A0
+[2016.06.14-04.22.38:500][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.06.14-04.22.38:545][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.14-04.22.38:549][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.14-04.22.39:198][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 648.878ms to complete.
+[2016.06.14-04.22.39:199][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.067
+[2016.06.14-04.22.39:404][  0]LogCollectionManager: Loaded 0 collections in 0.003473 seconds
+[2016.06.14-04.22.39:585][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pedro/Documents/GitHub/Game/Shooter/Saved/Collections/' took 0.01s
+[2016.06.14-04.22.39:585][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pedro/Documents/GitHub/Game/Shooter/Content/Developers/Pedro/Collections/' took 0.01s
+[2016.06.14-04.22.39:585][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pedro/Documents/GitHub/Game/Shooter/Content/Collections/' took 0.01s
+[2016.06.14-04.22.39:585][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.06.14-04.22.39:603][  0]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 1893 classes and 338 folders.
+[2016.06.14-04.22.39:618][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2016.06.14-04.22.39:888][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.06.14-04.22.39:901][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.06.14-04.22.39:966][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.06.14-04.22.39:980][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2016.06.14-04.22.40:010][  0]LogLoad: Full Startup: 26.89 seconds (BP compile: 0.11 seconds)
+[2016.06.14-04.22.40:371][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.06.14-04.22.53:287][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.06.14-04.22.53:691][  0]LogRenderer: Reallocating scene render targets to support 856x396 (Frame:3).
+[2016.06.14-04.22.56:698][  9]LogAssetRegistry: Asset discovery search completed in 29.7863 seconds
+[2016.06.14-04.22.56:698][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.06.14-04.22.56:698][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
+[2016.06.14-04.24.43:165][646]Cmd: CLOSE_SLATE_MAINFRAME
+[2016.06.14-04.24.43:345][646]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.06.14-04.24.43:667][647]Cmd: QUIT_EDITOR
+[2016.06.14-04.24.43:933][647]LogExit: Preparing to exit.
+[2016.06.14-04.24.44:987][647]LogExit: Editor shut down
+[2016.06.14-04.24.44:988][647]LogExit: Transaction tracking system shut down
+[2016.06.14-04.24.44:988][647]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000043C7272700
+[2016.06.14-04.24.44:991][647]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000043B872A5C0
+[2016.06.14-04.24.44:992][647]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000043C3B1B880
+[2016.06.14-04.24.45:267][647]LogExit: Object subsystem successfully closed.
+[2016.06.14-04.24.45:290][647]LogD3D11RHI: Shutdown
+[2016.06.14-04.24.45:291][647]LogD3D11RHI: CleanupD3DDevice
+[2016.06.14-04.24.45:449][647]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.14-04.24.45:552][647]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.06.14-04.24.45:552][647]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.06.14-04.24.45:552][647]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.06.14-04.24.45:552][647]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.06.14-04.24.45:552][647]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.06.14-04.24.45:555][647]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.06.14-04.24.45:555][647]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.06.14-04.24.45:556][647]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.06.14-04.24.45:556][647]LogModuleManager: Shutting down and abandoning module CookingStats (191)
+[2016.06.14-04.24.45:556][647]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.06.14-04.24.45:556][647]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.06.14-04.24.45:556][647]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.06.14-04.24.45:556][647]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.06.14-04.24.45:556][647]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.06.14-04.24.45:556][647]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.06.14-04.24.45:556][647]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.06.14-04.24.45:556][647]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.06.14-04.24.45:556][647]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.06.14-04.24.45:556][647]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.06.14-04.24.45:556][647]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.06.14-04.24.45:556][647]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.06.14-04.24.45:557][647]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.06.14-04.24.45:557][647]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.06.14-04.24.45:557][647]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.06.14-04.24.45:557][647]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.06.14-04.24.45:557][647]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.06.14-04.24.45:557][647]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.06.14-04.24.45:913][647]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.06.14-04.24.45:913][647]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.06.14-04.24.45:913][647]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.06.14-04.24.45:914][647]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.06.14-04.24.45:915][647]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.06.14-04.24.45:915][647]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.06.14-04.24.45:915][647]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.06.14-04.24.45:915][647]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.06.14-04.24.45:915][647]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.06.14-04.24.45:915][647]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.06.14-04.24.45:915][647]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.06.14-04.24.45:915][647]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.06.14-04.24.45:915][647]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.06.14-04.24.45:915][647]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.06.14-04.24.45:915][647]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.06.14-04.24.45:915][647]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.06.14-04.24.45:916][647]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.06.14-04.24.45:944][647]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.06.14-04.24.45:944][647]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.06.14-04.24.45:944][647]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.06.14-04.24.45:944][647]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.06.14-04.24.45:944][647]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.06.14-04.24.45:944][647]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.06.14-04.24.45:944][647]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.06.14-04.24.45:944][647]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.06.14-04.24.45:988][647]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.06.14-04.24.45:988][647]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.06.14-04.24.45:988][647]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.06.14-04.24.45:988][647]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.06.14-04.24.45:988][647]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.06.14-04.24.45:988][647]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.06.14-04.24.45:988][647]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.06.14-04.24.45:988][647]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.06.14-04.24.45:988][647]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.06.14-04.24.45:989][647]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.06.14-04.24.45:991][647]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.06.14-04.24.45:994][647]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.06.14-04.24.46:139][647]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.06.14-04.24.46:141][647]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.06.14-04.24.46:141][647]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.06.14-04.24.46:242][647]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.06.14-04.24.46:242][647]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.06.14-04.24.46:242][647]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.06.14-04.24.46:251][647]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.06.14-04.24.46:251][647]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.06.14-04.24.46:251][647]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.06.14-04.24.46:251][647]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.06.14-04.24.46:251][647]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.06.14-04.24.46:251][647]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.06.14-04.24.46:251][647]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.06.14-04.24.46:251][647]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.06.14-04.24.46:251][647]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.06.14-04.24.46:251][647]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.06.14-04.24.46:251][647]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.06.14-04.24.46:252][647]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.06.14-04.24.46:252][647]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.06.14-04.24.46:252][647]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.06.14-04.24.46:252][647]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.06.14-04.24.46:252][647]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.06.14-04.24.46:261][647]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.06.14-04.24.46:261][647]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.06.14-04.24.46:261][647]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.06.14-04.24.46:261][647]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.06.14-04.24.46:261][647]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.06.14-04.24.46:261][647]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.06.14-04.24.46:261][647]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.06.14-04.24.46:261][647]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.06.14-04.24.46:261][647]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.06.14-04.24.46:261][647]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.06.14-04.24.46:295][647]LogDerivedDataCache: Shutdown
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.06.14-04.24.46:296][647]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.06.14-04.24.48:302][647]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.06.14-04.24.48:302][647]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.06.14-04.24.48:302][647]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.14-04.24.48:302][647]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.06.14-04.24.48:302][647]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.14-04.24.48:302][647]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.14-04.24.48:303][647]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.14-04.24.48:305][647]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.14-04.24.48:305][647]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.14-04.24.48:305][647]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.14-04.24.48:305][647]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.14-04.24.48:305][647]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.14-04.24.48:305][647]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.14-04.24.48:305][647]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.14-04.24.48:305][647]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.14-04.24.48:305][647]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.14-04.24.48:305][647]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.14-04.24.48:307][647]LogExit: Exiting.
+[2016.06.14-04.24.48:336][647]Log file closed, 06/13/16 23:24:48
